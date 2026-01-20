@@ -1,0 +1,44 @@
+.richtext-toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+  background: #fffbe7;
+  border-radius: 8px;
+  padding: 6px 10px;
+  box-shadow: 0 2px 8px #ffd70022;
+}
+.richtext-toolbar button {
+  background: #ffd700;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #222;
+  transition: background 0.2s;
+}
+.richtext-toolbar button.active,
+.richtext-toolbar button:hover {
+  background: #ff9800;
+  color: #fff;
+}
+.richtext-toolbar .fa {
+  margin-right: 2px;
+}
+.richtext-content {
+  min-height: 120px;
+  background: #fffbe7;
+  border-radius: 12px;
+  padding: 12px 10px;
+  font-size: 1.08rem;
+  color: #222;
+  outline: none;
+  box-shadow: 0 2px 8px #ffd70022;
+  border: 1.5px solid #ffd70055;
+  margin-bottom: 12px;
+  transition: border 0.2s;
+}
+.richtext-content:focus {
+  border: 2.5px solid #ffd700;
+  background: #fffde4;
+}

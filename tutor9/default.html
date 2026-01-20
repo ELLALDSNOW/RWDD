@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Profile</title>
+</head>
+<body>
+    <h2>Address Book</h2>
+
+    <h3>Add New Profile</h3>
+
+    <form action="insert.php" method="post">
+    <label for="name">Name</label>
+    <input type="text" name="name" required="required"><br><br>
+    <label for="phone_num">Phone Nuber</label>
+    <input type="tel" name="phone_num" required="required"><br><br>
+    <label for="email_address">Email Address</label>
+    <input type="email" name="email_address" required="required"><br><br>
+
+    <textarea name="home_address" required="required"></textarea><br><br>
+
+    <input type="radio" name="gender" value="male" required="required">Male <br><br>
+
+    
+    <input type="radio" name="gender" value="female" required="required">Female  <br> <br>
+    
+    <select name="relationship" required="required">
+        <option value="family">Family</option>
+        <option value="friend">Friend</option>
+        <option value="work">Work</option>
+        <option value="other">Other</option>
+    </select>
+
+    <input type="date" name="dob">
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+
+
+    </form>
+
+
+
+</body>
+</html>

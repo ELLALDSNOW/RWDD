@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hive - Productivity Platform</title>
+  <link rel="stylesheet" href="landingPage.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="left-section">
+      <a href="index.html">
+        <img src="images/Group 24.png" alt="Hive Logo" class="logo">
+      </a>
+      <span class="brand">HIVE</span>
+  <button class="home-btn" onclick="location.href='index.html'">HOME</button>
+    </div>
+    <div class="right-section">
+      <button class="auth-btn" onclick="location.href='login.php'">Login</button>
+      <a href="signup.php"><button class="auth-btn">Sign Up</button></a>
+  
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <section id="hero" class="hero section-animate">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Where all bees<br>buzz with productivity</h1>
+        <img src="images/honey search bar rwdd.png" alt="honey drip" class="honey-drip">
+      </div>
+      <img src="images/bee hero rwdd.png" alt="Bee" class="bee-image">
+    </div>
+  </section>
+
+  
+  <section id="about" class="about section-animate">
+    <div class="about-left">
+        <div class="tablet">
+            <div class="tablet-screen">
+            <h2>Where Productivity<br>Buzzes</h2>
+            <p>
+                Welcome to Hive, the productivity platform where your ideas buzz to life. 
+                Just like a thriving bee colony, Hive transforms chaos into well-organized, efficient ecosystem. 
+                Every “HIVE” you create is a space where personal goals, team projects, and collaborative efforts thrive like honey.
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="about-right">
+      <div class="barcode-montage"></div>
+      <div class="about-main-content">
+          <span class="about-shadow">ABOUT</span>
+          <h1 class="about-main">ABOUT</h1>
+          <div class="barcode libre-barcode">HIVE</div>
+          <p class="about-sub">WHERE CHAOS MET ITS MATCH</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="why" class="why-hive section-animate">
+  <div class="why-wave-top">
+    <svg viewBox="0 0 1440 180" width="100%" height="180" preserveAspectRatio="none">
+        <defs>
+        <linearGradient id="honeyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#ffd84d;stop-opacity:50" />
+            <stop offset="0%" style="stop-color:#ffc800;stop-opacity:20" />
+            <stop offset="100%" style="stop-color:#ffc400;stop-opacity:-1" />
+        </linearGradient>
+        </defs>
+        <path fill="url(#honeyGradient)">
+        <animate attributeName="d" dur="6s" repeatCount="indefinite"
+            values="
+            M0,80 C200,190 500,40 600,140 C800,200 1000,40 1200,120 C1300,180 1400,100 1440,120 V180 H0 Z;
+            M0,100 C220,160 420,60 620,140 C820,220 1020,60 1220,140 C1320,180 1440,120 1440,140 V180 H0 Z;
+            M0,80 C200,140 400,40 600,120 C800,200 1000,40 1200,120 C1300,160 1400,100 1440,120 V180 H0 Z
+            " />
+        </path>
+    </svg>
+    <circle cx="200" cy="80" r="8" fill="#ffae00">
+        <animate attributeName="cy" values="80;180" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;0" dur="4s" repeatCount="indefinite" />
+    </circle>
+  </div>
+
+    <div class="why-header">
+      <h1>WHY HIVE</h1>
+      <p>THRIVE WITH HIVE</p>
+    </div>
+    <div class="reasons">
+      <div class="reason glass"><img src="images/bee bullet why hive.png" alt="" class="reason-bullet"><div><strong>Create Hives for organizations and personal projects</strong><br>organize tasks, projects, and goals</div></div>
+      <div class="reason glass"><img src="images/bee bullet why hive.png" alt="" class="reason-bullet"><div><strong>Build projects under each organization</strong><br>structure your work so teams know exactly what to focus on.</div></div>
+      <div class="reason glass"><img src="images/bee bullet why hive.png" alt="" class="reason-bullet"><div><strong>Add tasks under each project</strong><br>break down work into actionable items, track progress, and meet deadlines.</div></div>
+      <div class="reason glass"><img src="images/bee bullet why hive.png" alt="" class="reason-bullet"><div><strong>Control access at every level</strong><br>take control of every access level of each bee at your hive by project.</div></div>
+      <div class="reason glass"><img src="images/bee bullet why hive.png" alt="" class="reason-bullet"><div><strong>Track progress instantly</strong><br>visual progress bars, task counts, and deadlines help your team stay on course.</div></div>
+      <div class="reason glass"><img src="images/bee bullet why hive.png" alt="" class="reason-bullet"><div><strong>Collaborate seamlessly</strong><br>assign tasks, share updates, and communicate effectively so everyone works in sync, just like bees in a hive.</div></div>
+      <div class="reason glass"><img src="images/bee bullet why hive.png" alt="" class="reason-bullet"><div><strong>Centralize all your work</strong><br>no more juggling spreadsheets, notes, or scattered apps; Hive keeps everything organized, accessible, and productive.</div></div>
+    </div>
+    <div class="why-wave-bottom">
+    <svg viewBox="0 0 1440 180" width="100%" height="180" preserveAspectRatio="none" style="transform:rotate(180deg)">
+        <use href="#honeyGradient" />
+        <path fill="url(#honeyGradient)">
+        <animate attributeName="d" dur="8s" repeatCount="indefinite"
+            values="
+            M0,60 C180,120 320,40 480,100 C640,160 800,40 960,100 C1120,160 1280,60 1440,100 V180 H0 Z;
+            M0,80 C200,140 320,60 500,120 C700,180 820,60 1000,120 C1180,180 1300,80 1440,120 V180 H0 Z;
+            M0,60 C180,120 320,40 480,100 C640,160 800,40 960,100 C1120,160 1280,60 1440,100 V180 H0 Z
+            " />
+        </path>
+    </svg>
+    </div>
+  </section>
+
+  
+  <footer id="footer" class="footer section-animate">
+    <div class="footer-left">
+      <h1 class="footer-logo">the <span class="footer-flare">HIVE</span></h1>
+      <p>Sting one task at a time</p>
+    </div>
+    <div class="footer-right">
+      <div class="explore">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Dashboard</a></li>
+        </ul>
+      </div>
+      <div class="connect">
+        <h3>Let’s Connect</h3>
+        <div class="socials">
+          <div class="socials-row">
+            <a href="https://www.instagram.com/asiapacificuniversity/?hl=en" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="socials-row">
+            <a href="https://my.linkedin.com/school/apumalaysia/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/c/AsiaPacificUniversityKualaLumpur" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="socials-row">
+            <a href="https://x.com/AsiaPacificU?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/apuniversity/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.google.com/" target="_blank" aria-label="Google"><i class="fab fa-google"></i></a>
+            
+          </div>
+        </div>
+        <p>Follow Us</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="landingPage.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

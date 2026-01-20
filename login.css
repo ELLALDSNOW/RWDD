@@ -1,0 +1,152 @@
+body {
+
+  margin: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient( #fbff00,#ffd500, #ffb300); 
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 200vh;
+}
+
+
+h1{
+    color: black;
+}
+
+.signup-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 25px;
+
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.brand {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #000000;
+  letter-spacing: 1px;
+
+  font-weight: bold;
+}
+
+
+.login-container {
+  background: #000000;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 400px;   
+  text-align: center;
+  
+}
+
+
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1rem;
+}
+
+input:focus {
+    border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 0 6px rgb(242, 255, 0);
+}
+
+button {
+  width: 100%;
+  padding: 0.7rem;
+  background: #eeff00;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #000000;
+  color: yellow;
+  border: 2px solid yellow;
+}
+
+.links {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap; 
+}
+
+.links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 500px) {
+  .login-container {
+    padding: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  input, button {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+}
+
+
+label{
+    color: white;
+}
+
+input{
+    background-color: black;
+    border: 2px solid yellow;
+    color: yellow;
+}
